@@ -1,0 +1,80 @@
+:root {
+    --back-color: hsl(226, 54%, 18%);
+}
+
+body {
+    background-color: var(--back-color);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0;
+    width: 100%;
+    font-family: monospace;
+}
+.header {
+    font-size: min(15vw, 48px);
+    text-align: center;
+    color: var(--back-color);
+    filter: invert(50%);
+    font-weight: 700;
+}
+.tiles {
+    padding: 0;
+    margin: auto;
+    height: 100vw;
+    width: 100vw;
+    max-width: 400px;
+    max-height: 400px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.tile {
+    padding: 0;
+    background-color: var(--back-color);
+    filter: invert(80%) grayscale(1);
+    border-radius: 15%;
+    height: 25vw;
+    width: 25vw;
+    max-height: 112.5px;
+    max-width: 112.5px;
+    display: flex;
+}
+.tile p {
+    margin: auto;
+    padding: 0;
+    color: var(--back-color);
+    filter: invert(100%) brightness(1.5);
+    font-weight: 600;
+    font-size: min(10vw, 40px);
+    
+}
+
+.zero-tile {
+    color: var(--back-color);
+}
+
+#back {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    font-size: min(10vw, 36px);
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
